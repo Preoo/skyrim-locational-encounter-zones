@@ -18,10 +18,6 @@
 			"name": "vcpkg",
 			"hidden": true,
 			"cacheVariables": {
-				"CMAKE_TOOLCHAIN_FILE": {
-					"type": "STRING",
-					"value": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake"
-				},
 				"VCPKG_OVERLAY_PORTS": {
 					"type": "STRING",
 					"value": "${sourceDir}/cmake/ports/"
